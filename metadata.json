@@ -1,0 +1,5 @@
+{
+  "name": "ProfeMusic - Spanish Lyrics Teacher",
+  "description": "An interactive tool for Spanish teachers to create 'fill-in-the-blank' lyric exercises from songs using Gemini AI and YouTube.",
+  "requestFramePermissions": []
+}
