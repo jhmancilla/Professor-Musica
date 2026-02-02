@@ -8,8 +8,10 @@ export default defineConfig(({ mode }) => {
   // Fix: Use '.' instead of process.cwd() to avoid TS error "Property 'cwd' does not exist on type 'Process'"
   const env = loadEnv(mode, '.', '');
   
+  
   return {
     plugins: [react()],
+    base:"/Professor-Musica",
     define: {
       // Polyfill process.env for the Google GenAI SDK usage in the frontend
       'process.env.API_KEY': JSON.stringify(env.API_KEY)
