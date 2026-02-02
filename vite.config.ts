@@ -10,6 +10,7 @@ export default defineConfig(({ mode }) => {
   
   return {
     plugins: [react()],
+    base:"/Professor-Musica",
     define: {
       // Polyfill process.env for the Google GenAI SDK usage in the frontend
       'process.env.API_KEY': JSON.stringify(env.API_KEY)
