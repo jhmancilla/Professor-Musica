@@ -1,5 +1,4 @@
 {
-  "homepage": "https://jhmancilla.github.io/Professor-Musica",
   "name": "profemusic",
   "private": true,
   "version": "1.0.0",
@@ -7,9 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "predeploy": "npm rum build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@google/genai": "*",
@@ -22,8 +19,7 @@
     "@types/react": "^18.2.64",
     "@types/react-dom": "^18.2.21",
     "@vitejs/plugin-react": "^4.2.1",
-    "gh-pages": "^6.3.0",
     "typescript": "^5.2.2",
-    "vite": "^5.1.6"
+    "vite": "^7.3.1"
   }
 }
